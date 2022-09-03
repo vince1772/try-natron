@@ -29,7 +29,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 27px 99px 0 auto;
+  margin: 0 87px 0 auto;
 }
 
 .u-section-1 .u-text-2 {
@@ -53,6 +53,7 @@
   }
 
   .u-section-1 .u-text-2 {
+    margin-top: 20px;
     margin-right: 320px;
     margin-left: 0;
   }
@@ -97,6 +98,6 @@
   }
 
   .u-section-1 .u-image-1 {
-    margin-right: 22px;
+    margin-right: auto;
   }
 }
