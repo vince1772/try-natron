@@ -2,6 +2,11 @@
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/erik-karits-7hmoXn-8U7g-unsplash.jpg");
   background-position: 50% 50%;
 }
+.container{
+  max-width: 1520px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
 
 .u-section-1 .u-sheet-1 {
   min-height: 713px;
@@ -16,7 +21,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 60px 636px 0 20px;
+  margin: 100px 636px 0 20px;
 }
 
 .u-section-1 .u-image-1 {
@@ -40,6 +45,24 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: -325px 500px 60px 20px;
+}
+
+.moreText{
+ 
+}
+
+.read-more-btn{
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.text.show-more .moreText {
+  display: inline;
+}
+.text.show-more .dots {
+  display: none;
 }
 
 @media (max-width: 1199px) {
@@ -68,6 +91,10 @@
     margin-right: 236px;
   }
 
+  .u-section-1 .u-image-1 {
+    margin-top: 20px;
+  }
+
   .u-section-1 .u-text-2 {
     margin-right: 100px;
   }
@@ -89,7 +116,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 213px;
+    min-height: 1072px;
   }
 
   .u-section-1 .u-text-1 {
@@ -98,6 +125,14 @@
   }
 
   .u-section-1 .u-image-1 {
+    width: 291px;
+    height: 291px;
+    margin-top: 650px;
     margin-right: auto;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-top: -923px;
   }
 }
